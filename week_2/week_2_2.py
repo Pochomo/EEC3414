@@ -5,6 +5,7 @@ def MySort(arr):
                 temp = arr[j]; 
                 arr[j] = arr[j+1]
                 arr[j+1] = temp
+                #arr[j], arr[j+1] = arr[j+1], arr[j] 로도 됨
     return arr
 
 # 첫 번째 줄에서 n 을 입력받음
